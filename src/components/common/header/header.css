@@ -16,9 +16,6 @@ header a {
   font-weight: 500;
 }
 
-header li .active{
-  color: #27ae60;
-}
 header a:hover {
   color: #27ae60;
 }
