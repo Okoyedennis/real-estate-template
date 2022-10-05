@@ -15,6 +15,10 @@ header a {
   transition: 0.5s;
   font-weight: 500;
 }
+
+header li .active{
+  color: #27ae60;
+}
 header a:hover {
   color: #27ae60;
 }
@@ -53,15 +57,34 @@ header .toggle {
   }
   header .small {
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     left: 0;
     width: 100%;
     background-color: #27ae60;
     padding: 20px;
+
   }
   header li a {
     display: inline-block;
     margin-bottom: 20px;
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 568px) {
+header {
+  background-color: #fff;
+  height: 15vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+  header .small li .active{
+  color: #fff;
+opacity: .6;
+
   }
 }

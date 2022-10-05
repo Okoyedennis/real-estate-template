@@ -1,7 +1,7 @@
 export const nav = [
   {
     text: "home",
-    path: "/",
+    path: "/home",
   },
   {
     text: "about",
@@ -56,57 +56,57 @@ export const list = [
     id: 1,
     cover: "../images/list/p-1.png",
     name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
+    location: "210 Zirak Road, Abuja",
     category: "For Rent",
-    price: "$3,700",
+    price: "₦1,500,000",
     type: "Apartment",
   },
   {
     id: 2,
     cover: "../images/list/p-2.png",
     name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
+    location: "5698 Zirak Road, Abuja",
     category: "For Sale",
-    price: "$9,750",
+    price: "₦50,000,000",
     type: "Condos",
   },
   {
     id: 3,
     cover: "../images/list/p-7.png",
     name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
+    location: "5624 Mooker Market, Lagos",
     category: "For Rent",
-    price: "$5,860",
+    price: "₦1,560,000",
     type: "Offices",
   },
   {
     id: 4,
     cover: "../images/list/p-4.png",
     name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
+    location: "5621 Liverpool Apapa, Lagos",
     category: "For Sale",
-    price: "$7,540",
+    price: "₦40,000,000",
     type: "Homes & Villas",
   },
   {
     id: 5,
     cover: "../images/list/p-5.png",
     name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
+    location: "210 Montreal Road, Nigeria",
     category: "For Rent",
-    price: "$4,850",
+    price: "₦2,200,000",
     type: "Commercial",
   },
   {
     id: 6,
     cover: "../images/list/p-6.png",
     name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
+    location: "210 Zirak Road, Abuja",
     category: "For Sale",
-    price: "$2,742",
+    price: "₦90,000,000",
     type: "Apartment",
   },
-]
+];
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
@@ -226,7 +226,7 @@ export const team = [
 export const price = [
   {
     plan: "Basic",
-    price: "29",
+    price: "10,000",
     ptext: "per user, per month",
     list: [
       {
@@ -248,7 +248,7 @@ export const price = [
   {
     best: "Best Value",
     plan: "Standard",
-    price: "49",
+    price: "15,000",
     ptext: "per user, per month",
     list: [
       {
@@ -276,7 +276,7 @@ export const price = [
   },
   {
     plan: "Platinum",
-    price: "79",
+    price: "20,000",
     ptext: "2 user, per month",
     list: [
       {
